@@ -1,0 +1,332 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear:both;
+    height: 0;
+    visibility: hidden;
+    padding: 5px;
+}
+
+.floatleft{ float: left;}
+
+* { margin: 0; padding: 0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/obst_bg.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, p, a {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 200;
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: #98bd29;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 300;
+}
+
+ul {
+    padding-bottom: 30px;
+}
+
+header h1 {
+    text-indent: -9999px;
+}
+
+#main a {
+    color: #fff;
+}
+
+#main h1, #main h4, #main p {
+    color: #fff;
+    line-height: 24px;
+    font-weight: 200;
+}
+
+#main h1 {
+    padding: 25px 0 20px 0;
+    font-weight: 500;
+}
+
+.header {
+    width: 100%;
+    background: #98bd29;
+    border-bottom: 5px solid #000;
+}
+
+.logo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    padding: 0px 0 20px 0;
+}
+
+section {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu {
+    float: right;
+    padding-right: 100px;
+    margin-top: -40px;
+}
+
+.menu li {
+    list-style: none;
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.menu a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+}
+
+.first_link {
+    width: 580px;
+    height: 280px;
+    background: url(../images/produkte.png) no-repeat;
+    position: absolute;
+}
+
+.first_link a {
+    padding: 0 514px 261px 0;
+    color: transparent !important;
+}
+
+.first_link a:hover {
+    background: url(../images/produkte_hover.png) no-repeat;
+}
+
+.second_link {
+    width: 340px;
+    height: 280px;
+    background: url(../images/menschen.png) no-repeat;
+    float: right;
+}
+
+.second_link a {
+    padding: 0 301px 261px 0;
+    color: transparent !important;
+}
+
+.second_link a:hover {
+    background: url(../images/menschen_hover.png) no-repeat;
+}
+
+.third_link {
+    width: 420px;
+    height: 280px;
+    background: url(../images/geschichte.png) no-repeat;
+    /* position: absolute; */
+    margin-top: 300px;
+    float: left;
+}
+
+.third_link a {
+    padding: 0px 352px 261px 1px;
+    color: transparent !important;
+}
+
+.third_link a:hover {
+    background: url(../images/geschichte_hover.png) no-repeat;
+    padding: 0 353px 261px 390px;
+}
+
+.forth_link {
+    width: 190px;
+    height: 280px;
+    background: url(../images/impressum.png) no-repeat;
+    margin: 300px 0 0 442px;
+}
+
+.forth_link a {
+    padding: 0px 112px 261px 1px;
+    color: transparent !important;
+}
+
+.fifth_link {
+    width: 288px;
+    height: 280px;
+    background: url(../images/kontakt.png) no-repeat;
+    float: right;
+    margin-top: -280px;
+}
+
+.fifth_link a {
+    padding: 0px 230px 261px 1px;
+    color: transparent !important;
+}
+
+.fifth_link a:hover {
+    -webkit-transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+    -ms-transition: color 0.5s linear;
+    background: url(../images/kontakt_hover.png) no-repeat;
+}
+
+.footer_adress {
+    width: 100%;
+    background: #98bd29;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    height: 141px;
+}
+
+.footer_adress p:first-child {
+    padding-top: 15px;
+}
+
+.footer_adress p:last-child {
+    padding-bottom: 15px;
+}
+
+.footer_adress p {
+    padding-left: 8%;
+}
+
+.footer_adress a {
+    color: #fff;
+}
+
+.map_bgld {
+    width: 425px;
+    float: left;
+    margin-right: 90px;
+}
+
+.kontakt_bgld h1 {
+    padding: 30px 0 30px 0;
+}
+
+.bgld_text {
+    clear: both;
+}
+
+.wien_text {
+    float: right;
+    margin-top: -80px;
+}
+
+.content-1, .content-2, .content-3, .content-4, .content-5, .content-6, .content-7, .produkte, .team_bg {
+    padding-bottom: 30px;
+    /*width: 700px;*/
+    background: rgba(0,0,0, .6);
+    padding: 20px 20px 30px 20px;
+}
+
+.content-1 img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.story, .produkte, .team {
+    overflow: scroll;
+    height: 570px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+#main li {
+    list-style: none;
+}
+
+.team li {
+    padding-bottom: 50px;
+}
+
+
+.produkte ul {
+    width: 200px;
+}
+
+.footer_adress li {
+    list-style: none;
+}
+
+.footer_adress ul {
+    width: 320px;
+    float: left;
+}
+
+.footer_adress ul:first-child {
+    margin-left: 90px;
+    width: 250px;
+}
+
+html {
+    overflow-y:scroll !important;
+}
+
+
+
+
+
+
+/* ############################### Media Querys ###################### */
+
+@media screen and (max-width: 1200px){
+    body {background: url(../images/obst_bg.png); overflow: hidden;}
+    /*.first_link, .second_link, .third_link, .forth_link, .fifth_link {background-size: 80%;}
+    .first_link a:hover, .second_link a:hover, .third_link a:hover, .forth_link a:hover, .fifth_link a:hover {background-size: 80%;}*/
+
+}
+
+
+@media screen and (max-width: 900px) {
+    #main {
+        width: 100%;
+        margin: 20px;
+        height: 700px;
+    }
+    .story {
+        height: 700px;
+    }
+    .content-1, .content-2, .content-3, .content-4, .content-5, .content-6, .content-7, .produkte, .team_bg {
+        width: 95%;
+    }
+    .menu ul {
+        margin-right: -110px;
+    }
+
+}
+
+
+
+
+

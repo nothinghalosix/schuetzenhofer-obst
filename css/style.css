@@ -1,0 +1,276 @@
+/* Generel Styles */
+body {
+  padding-top: 50px;
+  background: url('../images/obst_bg.jpg');
+  background-size: 100%;
+}
+.starter-template {
+  padding: 40px 15px;
+}
+
+div[class^="col"] {
+	float: left;
+	padding: 0 8px;
+	min-height: 1px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-inverse {
+	background: #98bd29;
+	border-bottom: 3px solid #222;
+}
+
+.navbar-brand {
+	background: url('../images/logo.png') no-repeat;
+	text-indent: -99999px;
+	width: 350px;
+}
+
+#navbar {
+	float: right;
+}
+
+img {
+	width: 100%;
+}
+
+.active {
+	background: #222;
+}
+
+.col-5 { width: 5%; } .col-10 { width: 10%; } .col-12 { width: 12.5%; } .col-14 { width: 14.28571428571429%; } .col-16 { width: 16.66%; } .col-20 { width: 20%; } .col-25 { width: 25%; } .col-30 { width: 30%; } .col-33 { width: 33.33%; } .col-37 { width: 37.5%; } .col-40 { width: 40%; } .col-50 { width: 50%; } .col-60 { width: 60%; } .col-62 { width: 62.5%; } .col-66 { width: 66.66%; } .col-70 { width: 70%; } .col-75 { width: 75%; } .col-80 { width: 80%; } .col-83 { width: 83.33%; } .col-90 { width: 90%; } .col-100 { width: 100%; }
+/* End Generel Styles */
+
+/* Fonts */
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+}
+
+h3 {
+	color: #98bd29;
+	font-family: 'Abel', sans-serif;
+}
+
+h4 {
+	color: #fff;
+}
+
+p {
+	font-family: 'Abel', sans-serif;
+}
+
+.main-content p {
+	color: #fff;
+	font-size: 18px;
+}
+
+.main-content a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+span {
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 32px;
+	padding-left: 10px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #222;
+}
+
+/* End Font Styles */
+
+.navbar-fixed-top {
+	height: 80px;
+}
+
+.navbar > .container {
+	margin-top: 27px;
+}
+
+/* Content */
+.content {
+	margin-bottom: 50px;
+}
+
+.container > .main-content {
+	margin-bottom: 100px;
+}
+
+.home-bg1, .home-bg2 {
+	margin-bottom: 15px;
+}
+
+.overlay {
+	width: 80%;
+	background: rgba(0,0,0, .6);
+	/*position: absolute;*/
+}
+
+.front1 {
+	background: url('../images/beeren.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.front2 {
+	background: url('../images/team.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.front3 {
+	background: url('../images/kontakt.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.front4 {
+	background: url('../images/ueber_uns_home.jpg');
+	background-size: cover;
+	height: 300px;
+}
+
+.front1:hover, .front2:hover, .front3:hover, .front4:hover {
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+	-webkit-filter:  grayscale(1);
+  	filter:  grayscale(1);
+}
+
+.col-33 ul {
+	list-style: none;
+	color: #fff;
+	font-size: 17px;
+	line-height: 18px;
+}
+
+.produkte {
+	background: rgba(0,0,0, .6);
+	padding-bottom: 20px;
+}
+
+iframe {
+	margin-bottom: 30px;
+}
+
+.team {
+	height: 600px;
+}
+
+.map {
+	margin-bottom: 40px;
+}
+.map p {
+	line-height: 10px;
+}
+
+/* End Content Styles */
+
+/* Footer Styles */
+.footer {
+	position: absolute;
+	width: 100%;
+	background: #98bd29;
+	/*bottom: 0;*/
+	margin-top: 30px;
+	border-bottom: 3px solid #222;
+	border-top: 3px solid #222;
+}
+
+.footer > .container {
+	padding: 15px 0;
+}
+
+.footer p {
+	line-height: 15px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
+/* End Footer Styles */
+
+
+/* Media Querys */
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 990px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	#navbar {
+		float: none;
+		width: 110%;
+		text-align: center;
+	}
+	.navbar-nav {
+		float: none;
+	}
+	.nav li:last-child {
+		border-bottom: none;
+	}
+	.col-25 {
+		width: 50%;
+	}
+	.col-33 {
+		width: 100%;
+	}
+	.col-50 {
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	.navbar-brand {
+		background-size: 70%;
+		margin-top: -50px;
+	}
+	#navbar {
+		background: #222;
+	}
+	.nav li {
+		border-bottom: 1px solid #fff;
+	}
+	.starter-template {
+		padding: 40px 0;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	.home-bg1, .home-bg2, .home-bg3, .home-bg4{
+		width: 100%;
+	}
+	.home-bg3 {
+		margin-bottom: 15px;
+	}
+	
+}
